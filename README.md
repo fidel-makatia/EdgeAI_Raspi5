@@ -127,6 +127,39 @@ Here are some example commands you can use with the assistant:
 | gemma2:2b           | 4.1        | 23758       | 23758    |
 | deepseek-r1:7b      | 1.6        | 64797       | 64797    |
 
+Looking through the code, I can extract the GPIO pin assignments from the `_init_devices()` method. Here are the Raspberry Pi pins used:
+
+## 🔌 **Raspberry Pi GPIO Pin Assignments**
+
+| Device | GPIO Pin | Type | Room | Power | Dimmable |
+|--------|----------|------|------|-------|----------|
+| **Living Room Light** | GPIO 17 | Light | Living Room | 60W | ✅ Yes |
+| **Living Room Fan** | GPIO 27 | Fan | Living Room | 75W | ❌ No |
+| **Smart TV** | GPIO 22 | Smart TV | Living Room | 150W | ❌ No |
+| **Bedroom Light** | GPIO 23 | Light | Bedroom | 40W | ✅ Yes |
+| **Bedroom AC** | GPIO 24 | AC | Bedroom | 1200W | ❌ No |
+| **Kitchen Light** | GPIO 5 | Light | Kitchen | 80W | ❌ No |
+| **Front Door Lock** | GPIO 26 | Door Lock | Entrance | 5W | ❌ No |
+| **Garden Light** | GPIO 16 | Light | Outdoor | 100W | ❌ No |
+
+### 📋 **Pin Summary**
+- **Total Pins Used:** 8
+- **Dimmable Devices:** 2 (use PWMLED)
+- **Standard Devices:** 6 (use LED)
+
+
+### 🔧 **Hardware Requirements**
+- Raspberry Pi 5
+- 8x Relay modules (or similar switching devices)
+- 2x PWM-capable outputs for dimmable lights
+- Proper power supplies for high-wattage devices (especially the 1200W AC unit)
+
+### ⚠️ **Safety Notes**
+- Use appropriate relays rated for the device power consumption
+- Always use proper isolation between Raspberry Pi GPIO (3.3V) and mains voltage devices
+- Consider using optocouplers for additional safety
+
+You can copy this directly into your README! The pin assignments are clearly defined in the code and this table makes it easy to wire up the hardware.
 ## 🤝 Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue for improvements or bug reports.
