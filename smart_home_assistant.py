@@ -27,7 +27,7 @@ import psutil
 import difflib
 import ctypes
 
-# Performance optimizations for ARM
+# Performance optimizations for ARM (Raspberry Pi 5)
 os.environ['OMP_NUM_THREADS'] = '4'
 os.environ['MKL_NUM_THREADS'] = '4'
 os.environ['OPENBLAS_NUM_THREADS'] = '4'
