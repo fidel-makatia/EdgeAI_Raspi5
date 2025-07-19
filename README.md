@@ -140,7 +140,7 @@ Looking through the code, I can extract the GPIO pin assignments from the `_init
 | **Bedroom AC** | GPIO 24 | AC | Bedroom |❌ No |
 | **Kitchen Light** | GPIO 5 | Light | Kitchen |❌ No |
 | **Front Door Lock** | GPIO 26 | Door Lock | Entrance | ❌ No |
-| **Garden Light** | GPIO 16 | Light | Outdoor  ❌ No |
+| **Garden Light** | GPIO 16 | Light | Outdoor | ❌ No |
 
 ### 📋 **Pin Summary**
 - **Total Pins Used:** 8
