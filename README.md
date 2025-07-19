@@ -1,7 +1,7 @@
 # Ultra-High-Performance Smart Home Assistant for Raspberry Pi 5
 
 <p align="center">
-    <img src="assets/UI2.png" alt="Project Banner" width="80%" />
+    <img src="assets/UI3.png" alt="Project Banner" width="80%" />
 </p>
 
 A next-generation smart home assistant optimized for Raspberry Pi 5, leveraging local language models via Ollama for robust natural language understanding and device control. Designed for low latency and high throughput.
