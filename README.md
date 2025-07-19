@@ -105,6 +105,14 @@ python3 smart_home_assistant.py --model tinyllama --optimize
 Access the web dashboard at:  
 `http://<your-pi-ip>:8000`
 
+## 📝 Example Commands
+
+Here are some example commands you can use with the assistant:
+
+- `turn on living room light`
+- `I want to watch my favorite show`
+- `its getting late, secure the house`
+
 ## 📊 Performance Benchmarks
 
 <p align="center">
