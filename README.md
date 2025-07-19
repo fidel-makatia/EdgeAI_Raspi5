@@ -159,7 +159,6 @@ Looking through the code, I can extract the GPIO pin assignments from the `_init
 - Always use proper isolation between Raspberry Pi GPIO (3.3V) and mains voltage devices
 - Consider using optocouplers for additional safety
 
-You can copy this directly into your README! The pin assignments are clearly defined in the code and this table makes it easy to wire up the hardware.
 ## 🤝 Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue for improvements or bug reports.
