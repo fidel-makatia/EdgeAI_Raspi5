@@ -131,16 +131,16 @@ Looking through the code, I can extract the GPIO pin assignments from the `_init
 
 ## 🔌 **Raspberry Pi GPIO Pin Assignments**
 
-| Device | GPIO Pin | Type | Room | Power | Dimmable |
-|--------|----------|------|------|-------|----------|
-| **Living Room Light** | GPIO 17 | Light | Living Room | 60W | ✅ Yes |
-| **Living Room Fan** | GPIO 27 | Fan | Living Room | 75W | ❌ No |
-| **Smart TV** | GPIO 22 | Smart TV | Living Room | 150W | ❌ No |
-| **Bedroom Light** | GPIO 23 | Light | Bedroom | 40W | ✅ Yes |
-| **Bedroom AC** | GPIO 24 | AC | Bedroom | 1200W | ❌ No |
-| **Kitchen Light** | GPIO 5 | Light | Kitchen | 80W | ❌ No |
-| **Front Door Lock** | GPIO 26 | Door Lock | Entrance | 5W | ❌ No |
-| **Garden Light** | GPIO 16 | Light | Outdoor | 100W | ❌ No |
+| Device | GPIO Pin | Type | Room |  Dimmable |
+|--------|----------|------|------|----------|
+| **Living Room Light** | GPIO 17 | Light | Living Room |✅ Yes |
+| **Living Room Fan** | GPIO 27 | Fan | Living Room | ❌ No |
+| **Smart TV** | GPIO 22 | Smart TV | Living Room | ❌ No |
+| **Bedroom Light** | GPIO 23 | Light | Bedroom | ✅ Yes |
+| **Bedroom AC** | GPIO 24 | AC | Bedroom |❌ No |
+| **Kitchen Light** | GPIO 5 | Light | Kitchen |❌ No |
+| **Front Door Lock** | GPIO 26 | Door Lock | Entrance | ❌ No |
+| **Garden Light** | GPIO 16 | Light | Outdoor  ❌ No |
 
 ### 📋 **Pin Summary**
 - **Total Pins Used:** 8
