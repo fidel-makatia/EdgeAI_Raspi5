@@ -1,0 +1,9 @@
+ollama
+numpy
+httpx
+orjson
+gpiozero
+fastapi
+uvicorn
+psutil
+uvloop
